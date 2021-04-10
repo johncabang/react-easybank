@@ -2,11 +2,17 @@ import styled from "styled-components";
 
 export const ArticlesContainer = styled.div`
   padding: 5rem 10rem 5rem 10rem;
-  position: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   font-size: 1.2rem;
   background-color: #f2f2f2;
+`;
+
+export const ArticlesWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  width: 100%;
 `;
 
 export const ArticlesHeading = styled.h1`
@@ -17,7 +23,7 @@ export const ArticlesHeading = styled.h1`
   padding-bottom: 2rem;
 `;
 
-export const ArticlesWrapper = styled.div`
+export const ArticleCardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

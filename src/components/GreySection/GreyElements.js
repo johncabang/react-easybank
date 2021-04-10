@@ -5,8 +5,16 @@ export const GreyContainer = styled.div`
   padding: 5rem 10rem 0 10rem;
   margin-top: -7rem;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 1.2rem;
+`;
+
+export const GreyWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  width: 100%;
 `;
 
 export const GreyHeader = styled.div`
@@ -26,7 +34,7 @@ export const GreyDescription = styled.p`
   padding: 2rem 0;
 `;
 
-export const GreyWrapper = styled.div`
+export const GreyBodyWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

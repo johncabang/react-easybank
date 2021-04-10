@@ -24,8 +24,8 @@ export const NavbarContainer = styled.div`
   justify-content: space-between;
   height: 80px;
   z-index: 1;
-  width: 100%;
   max-width: 1400px;
+  width: 100%;
 `;
 
 export const Navlogo = styled(LinkRouter)`

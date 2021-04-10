@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import { Link as LinkRouter } from "react-router-dom";
 
 export const HeroContainer = styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
   height: 800px;
   padding: 0 10rem 0 10rem;
 
@@ -13,27 +12,33 @@ export const HeroContainer = styled.div`
   }
 `;
 
+export const HeroWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1400px;
+`;
+
 export const HeroImages = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 5rem;
+  position: relative;
   z-index: 1;
-  height: 70%;
+  top: -9rem;
+  right: -40rem;
 `;
 
 export const HeroBgImage = styled.div`
   display: flex;
-  position: relative;
-  right: -30rem;
+  position: absolute;
 `;
 
 export const HeroMockupImage = styled.div`
   display: flex;
   position: absolute;
-  top: -7.5rem;
-  right: -8rem;
+  top: -15rem;
+  right: -15rem;
 `;
 
 export const HeroText = styled.div`
@@ -53,38 +58,4 @@ export const HeroDescription = styled.p`
   color: #b2b2b2;
   padding: 2rem 0;
   width: 490px;
-`;
-
-export const HeroBtn = styled.div`
-  display: flex;
-  align-items: center;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
-export const HeroBtnLink = styled(LinkRouter)`
-  border-radius: 25px;
-  background: transparent
-    linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 50%) no-repeat
-    padding-box;
-  font-size: 14px;
-  font-weight: 700;
-  white-space: nowrap;
-  padding: 10px 20px;
-  color: white;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: transparent
-      linear-gradient(90deg, hsl(136, 65%, 51%) 20%, hsl(192, 70%, 51%) 70%) 0%
-      0% no-repeat padding-box;
-    color: black;
-  }
 `;

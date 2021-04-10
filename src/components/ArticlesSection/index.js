@@ -1,7 +1,8 @@
 import {
   ArticlesContainer,
-  ArticlesHeading,
   ArticlesWrapper,
+  ArticlesHeading,
+  ArticleCardWrapper,
   ArticleCard,
   ArticleImage,
   ArticleAuthor,
@@ -13,20 +14,22 @@ import {
 const ArticlesSection = ({ data }) => {
   return (
     <ArticlesContainer>
-      <ArticlesHeading>Latest Articles</ArticlesHeading>
       <ArticlesWrapper>
-        {data.map((article) => {
-          return (
-            <ArticleCard key={article.id}>
-              <ArticleImage src={article.image} />
-              <ArticleText>
-                <ArticleAuthor>By {article.author}</ArticleAuthor>
-                <ArticleTitle>{article.title}</ArticleTitle>
-                <ArticleExerpt>{article.exerpt}</ArticleExerpt>
-              </ArticleText>
-            </ArticleCard>
-          );
-        })}
+        <ArticlesHeading>Latest Articles</ArticlesHeading>
+        <ArticleCardWrapper>
+          {data.map((article) => {
+            return (
+              <ArticleCard key={article.id}>
+                <ArticleImage src={article.image} />
+                <ArticleText>
+                  <ArticleAuthor>By {article.author}</ArticleAuthor>
+                  <ArticleTitle>{article.title}</ArticleTitle>
+                  <ArticleExerpt>{article.exerpt}</ArticleExerpt>
+                </ArticleText>
+              </ArticleCard>
+            );
+          })}
+        </ArticleCardWrapper>
       </ArticlesWrapper>
     </ArticlesContainer>
   );
