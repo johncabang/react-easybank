@@ -44,7 +44,7 @@ export const FooterLogo = styled(LinkRouter)`
 export const FooterLinksWrapper = styled.div`
   display: flex;
   justify-content: center;
-  color: white;
+  color: #fff;
   margin: 2rem 0;
 `;
 
@@ -78,7 +78,7 @@ export const FooterRequestButtonWrapper = styled.div`
 `;
 
 export const FooterButtonText = styled.p`
-  color: grey;
+  color: #b2b2b2;
   font-size: 1rem;
   margin-top: 2rem;
 `;
