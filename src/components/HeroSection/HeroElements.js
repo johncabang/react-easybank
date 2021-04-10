@@ -6,6 +6,11 @@ export const HeroContainer = styled.div`
   align-items: center;
   flex-direction: row;
   height: 800px;
+  padding: 0 10rem 0 10rem;
+
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
+  }
 `;
 
 export const HeroImages = styled.div`
@@ -13,24 +18,28 @@ export const HeroImages = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -6rem;
-  right: -23rem;
+  top: 5rem;
+  z-index: 1;
+  height: 70%;
 `;
 
 export const HeroBgImage = styled.div`
+  display: flex;
   position: relative;
-  top: -5.5rem;
+  right: -30rem;
 `;
 
 export const HeroMockupImage = styled.div`
+  display: flex;
   position: absolute;
+  top: -7.5rem;
+  right: -8rem;
 `;
 
 export const HeroText = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-  padding-left: 5rem;
 `;
 
 export const HeroTitle = styled.h1`
