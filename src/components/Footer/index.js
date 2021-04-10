@@ -37,7 +37,6 @@ const Footer = () => {
             <img src={instagram} alt="instagram" />
           </FooterSocial>
         </FooterSocialContainer>
-
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLink to="/">About Us</FooterLink>
@@ -45,7 +44,6 @@ const Footer = () => {
             <FooterLink to="/">Blog</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
-
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLink to="/">Career</FooterLink>
@@ -53,7 +51,6 @@ const Footer = () => {
             <FooterLink to="/">Privacy Policy</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
-
         <FooterButtonContainer>
           <FooterButtonWrapper>
             <FooterRequestButtonWrapper>
