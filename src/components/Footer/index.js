@@ -13,12 +13,13 @@ import {
   FooterSocialContainer,
   FooterSocial,
   FooterLinksWrapper,
-  FooterLinkItems,
+  FooterLinkItem,
   FooterLink,
   FooterButtonContainer,
   FooterButtonWrapper,
   FooterRequestButtonWrapper,
   FooterButtonText,
+  FooterSocialLink,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -30,27 +31,47 @@ const Footer = () => {
             <img src={logo} alt="logo" />
           </FooterLogo>
           <FooterSocial>
-            <img src={facebook} alt="facebook" />
-            <img src={youtube} alt="youtube" />
-            <img src={twitter} alt="twitter" />
-            <img src={pinterest} alt="pinterest" />
-            <img src={instagram} alt="instagram" />
+            <FooterSocialLink to="/">
+              <img src={facebook} alt="facebook" />
+            </FooterSocialLink>
+            <FooterSocialLink to="/">
+              <img src={youtube} alt="youtube" />
+            </FooterSocialLink>
+            <FooterSocialLink to="/">
+              <img src={twitter} alt="twitter" />
+            </FooterSocialLink>
+            <FooterSocialLink to="/">
+              <img src={pinterest} alt="pinterest" />
+            </FooterSocialLink>
+            <FooterSocialLink to="/">
+              <img src={instagram} alt="instagram" />
+            </FooterSocialLink>
           </FooterSocial>
         </FooterSocialContainer>
+
         <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLink to="/">About Us</FooterLink>
-            <FooterLink to="/">Contact</FooterLink>
-            <FooterLink to="/">Blog</FooterLink>
-          </FooterLinkItems>
+          <FooterLinkItem>
+            <FooterLink to="/about">About Us</FooterLink>
+          </FooterLinkItem>
+          <FooterLinkItem>
+            <FooterLink to="/contact">Contact</FooterLink>
+          </FooterLinkItem>
+          <FooterLinkItem>
+            <FooterLink to="/blog">Blog</FooterLink>
+          </FooterLinkItem>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLink to="/">Career</FooterLink>
-            <FooterLink to="/">Support</FooterLink>
-            <FooterLink to="/">Privacy Policy</FooterLink>
-          </FooterLinkItems>
+          <FooterLinkItem>
+            <FooterLink to="/career">Career</FooterLink>
+          </FooterLinkItem>
+          <FooterLinkItem>
+            <FooterLink to="/support">Support</FooterLink>
+          </FooterLinkItem>
+          <FooterLinkItem>
+            <FooterLink to="/policy">Privacy Policy</FooterLink>
+          </FooterLinkItem>
         </FooterLinksWrapper>
+
         <FooterButtonContainer>
           <FooterButtonWrapper>
             <FooterRequestButtonWrapper>

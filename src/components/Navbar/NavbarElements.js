@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
-import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
   height: 80px;
@@ -16,6 +15,7 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    padding: 0 1rem;
   }
 `;
 
@@ -65,7 +65,7 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
-export const NavLinks = styled(LinkScroll)`
+export const NavLinks = styled(LinkRouter)`
   color: #b2b2b2;
   display: flex;
   align-items: center;
@@ -74,8 +74,8 @@ export const NavLinks = styled(LinkScroll)`
   height: 100%;
   cursor: pointer;
 
-  &.active {
-    border-bottom: 3px solid #01bf71;
+  &:hover {
+    border-bottom: 3px solid hsl(136, 65%, 51%);
   }
 `;
 
@@ -106,9 +106,6 @@ export const NavBtnLink = styled(LinkRouter)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: transparent
-      linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 50%)
-      no-repeat padding-box;
-    color: #fff;
+    filter: brightness(1.2);
   }
 `;

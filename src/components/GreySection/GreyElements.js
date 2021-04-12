@@ -8,6 +8,14 @@ export const GreyContainer = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+
+  @media screen and (max-width: 820px) {
+    transition: 0.8s all ease;
+    padding: 2rem 2rem 0rem 2rem;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 0;s
+  }
 `;
 
 export const GreyWrapper = styled.div`
@@ -40,6 +48,11 @@ export const GreyBodyWrapper = styled.div`
   justify-content: space-between;
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 820px) {
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const GreyCard = styled.div`

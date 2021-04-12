@@ -7,6 +7,7 @@ import {
   HeroText,
   HeroTitle,
   HeroDescription,
+  HeroButton,
 } from "./HeroElements";
 import bg from "./../../assets/bg-intro-desktop.svg";
 import mockups from "./../../assets/image-mockups.png";
@@ -23,15 +24,18 @@ const Hero = () => {
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </HeroDescription>
-          <RequestButton />
+          <HeroButton>
+            <RequestButton />
+          </HeroButton>
         </HeroText>
         <HeroImages>
           <HeroBgImage>
             <img src={bg} alt="bg" />
           </HeroBgImage>
-          <HeroMockupImage>
+          {/* <HeroMockupImage>
             <img src={mockups} alt="mockups" />
-          </HeroMockupImage>
+          </HeroMockupImage> */}
+          <HeroMockupImage src={mockups} />
         </HeroImages>
       </HeroWrapper>
     </HeroContainer>

@@ -24,9 +24,6 @@ export const NavBtnLink = styled(LinkRouter)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: transparent
-      linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 50%)
-      no-repeat padding-box;
-    color: #fff;
+    filter: brightness(1.2);
   }
 `;

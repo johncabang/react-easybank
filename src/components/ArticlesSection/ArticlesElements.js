@@ -6,6 +6,11 @@ export const ArticlesContainer = styled.div`
   justify-content: center;
   font-size: 1.2rem;
   background-color: #f2f2f2;
+
+  @media screen and (max-width: 820px) {
+    transition: 0.8s all ease;
+    padding: 5rem 2rem 5rem 2rem;
+  }
 `;
 
 export const ArticlesWrapper = styled.div`
@@ -21,12 +26,22 @@ export const ArticlesHeading = styled.h1`
   font-size: 2.5rem;
   width: 450px;
   padding-bottom: 2rem;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+  }
 `;
 
 export const ArticleCardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media screen and (max-width: 820px) {
+    justify-content: center;
+  }
 `;
 
 export const ArticleCard = styled.div`
@@ -34,6 +49,10 @@ export const ArticleCard = styled.div`
   border-radius: 10px;
   width: 250px;
   margin-bottom: 1rem;
+
+  @media screen and (max-width: 820px) {
+    width: 100%;
+  }
 `;
 
 export const ArticleImage = styled.img`
@@ -42,6 +61,13 @@ export const ArticleImage = styled.img`
   width: 250px;
   background-position: center;
   background-size: cover;
+
+  @media screen and (max-width: 820px) {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+  }
 `;
 
 export const ArticleText = styled.div`
@@ -57,6 +83,10 @@ export const ArticleAuthor = styled.h2`
 export const ArticleTitle = styled.p`
   font-size: 1.1rem;
   padding-bottom: 1rem;
+
+  &:hover {
+    color: hsl(136, 65%, 51%);
+  }
 `;
 
 export const ArticleExerpt = styled.p`
