@@ -38,7 +38,7 @@ export const HeroImages = styled.div`
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
     overflow: hidden;
-    top: -7.8rem;
+    top: -8.2rem;
     right: 0;
   }
 `;
@@ -64,7 +64,7 @@ export const HeroBgImageMobile = styled.img`
     height: auto;
     width: 100%;
     position: absolute;
-    top: -2rem;
+    top: 5rem;
     z-index: -1;
   }
 `;
