@@ -2,14 +2,17 @@ import {
   HeroContainer,
   HeroWrapper,
   HeroImages,
-  HeroBgImage,
+  HeroBgImageDesktop,
+  HeroBgImageMobile,
   HeroMockupImage,
   HeroText,
   HeroTitle,
   HeroDescription,
   HeroButton,
 } from "./HeroElements";
-import bg from "./../../assets/bg-intro-desktop.svg";
+import bgdesktop from "./../../assets/bg-intro-desktop.svg";
+import bgmobile from "./../../assets/bg-intro-mobile.svg";
+
 import mockups from "./../../assets/image-mockups.png";
 import { RequestButton } from "../Button";
 
@@ -29,12 +32,8 @@ const Hero = () => {
           </HeroButton>
         </HeroText>
         <HeroImages>
-          <HeroBgImage>
-            <img src={bg} alt="bg" />
-          </HeroBgImage>
-          {/* <HeroMockupImage>
-            <img src={mockups} alt="mockups" />
-          </HeroMockupImage> */}
+          <HeroBgImageDesktop src={bgdesktop} />
+          <HeroBgImageMobile src={bgmobile} />
           <HeroMockupImage src={mockups} />
         </HeroImages>
       </HeroWrapper>

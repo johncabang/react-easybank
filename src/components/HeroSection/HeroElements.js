@@ -32,49 +32,49 @@ export const HeroImages = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 1;
-  top: -9rem;
-  right: -40rem;
+  top: -3rem;
+  right: -9rem;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
-    position: static;
     overflow: hidden;
+    top: -7.8rem;
+    right: 0;
   }
 `;
 
-export const HeroBgImage = styled.div`
-  display: flex;
+export const HeroBgImageDesktop = styled.img`
   position: absolute;
+  z-index: -999;
+  top: -9rem;
+  right: -20rem;
+
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
+`;
+
+export const HeroBgImageMobile = styled.img`
+  display: none;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
-    display: none;
+    display: flex;
     justify-content: center;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: -2rem;
+    z-index: -1;
   }
 `;
-
-// export const HeroMockupImage = styled.div`
-//   display: flex;
-//   position: absolute;
-//   top: -15rem;
-//   right: -15rem;
-
-//   @media screen and (max-width: 960px) {
-//     transition: 0.8s all ease;
-//     position: relative;
-//     top: -17rem;
-//     right: 0;
-//   }
-// `;
 
 export const HeroMockupImage = styled.img`
-  height: 400px;
-  width: 400px;
-  margin-bottom: 5rem;
+  height: 100%;
 
   @media screen and (max-width: 960px) {
-    height: 580px;
+    transition: 0.8s all ease;
+    height: 450px;
     width: auto;
   }
 `;
