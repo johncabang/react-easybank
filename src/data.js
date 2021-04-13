@@ -63,7 +63,7 @@ export const greyData = [
     image: icon2,
     title: "Simple Budgeting",
     body:
-      "See exactly where you money goes each month. Receive notifications when you're close to hitting your limits.",
+      "See exactly where your money goes each month. Receive notifications when you're close to hitting your limits.",
   },
   {
     id: 3,

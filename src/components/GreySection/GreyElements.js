@@ -14,7 +14,7 @@ export const GreyContainer = styled.div`
     padding: 2rem 2rem 0rem 2rem;
     text-align: center;
     flex-direction: column;
-    margin-top: 0;s
+    margin-top: 0;
   }
 `;
 
