@@ -19,7 +19,7 @@ export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
@@ -38,7 +38,6 @@ export const HeroImages = styled.div`
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
-    overflow: hidden;
     top: -11.8rem;
     right: 0;
   }
@@ -51,7 +50,7 @@ export const HeroImages = styled.div`
 export const HeroBgImageDesktop = styled.img`
   transition: 0.8s all ease;
   position: absolute;
-  z-index: -999;
+  z-index: -1;
   top: -9rem;
   right: -20rem;
 
@@ -73,7 +72,7 @@ export const HeroBgImageMobile = styled.img`
     width: 100%;
     position: absolute;
     top: 9rem;
-    z-index: -1;
+    z-index: -999;
     margin-bottom: 0;
   }
 
@@ -111,7 +110,6 @@ export const HeroText = styled.div`
 `;
 
 export const HeroTitle = styled.h1`
-  color: #000;
   font-weight: 100;
   font-size: 3rem;
   width: 450px;
@@ -128,7 +126,7 @@ export const HeroTitle = styled.h1`
 `;
 
 export const HeroDescription = styled.p`
-  color: #b2b2b2;
+  color: hsl(233, 8%, 62%);
   padding: 2rem 0;
   width: 490px;
 

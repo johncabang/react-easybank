@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const GreyContainer = styled.div`
-  background-color: #fafafa;
+  background-color: hsl(220, 16%, 96%);
   padding: 5rem 10rem 0 10rem;
   margin-top: -7rem;
   display: flex;
@@ -9,7 +9,7 @@ export const GreyContainer = styled.div`
   align-items: center;
   font-size: 1.2rem;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
     padding: 2rem 2rem 0rem 2rem;
     text-align: center;
@@ -21,7 +21,7 @@ export const GreyContainer = styled.div`
 export const GreyWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
 `;
 
@@ -32,13 +32,12 @@ export const GreyHeader = styled.div`
 `;
 
 export const GreyTitle = styled.h1`
-  color: #000;
   font-weight: 100;
   font-size: 2.5rem;
 `;
 
 export const GreyDescription = styled.p`
-  color: #b2b2b2;
+  color: hsl(233, 8%, 62%);
   padding: 2rem 0;
 `;
 
@@ -49,8 +48,7 @@ export const GreyBodyWrapper = styled.div`
   margin-top: 2rem;
   margin-bottom: 2rem;
 
-  @media screen and (max-width: 820px) {
-    display: flex;
+  @media screen and (max-width: 768px) {
     justify-content: center;
   }
 `;
@@ -79,5 +77,5 @@ export const GreyCardTitle = styled.p`
 export const GreyBody = styled.p`
   font-size: 1rem;
   font-weight: 500;
-  color: #b2b2b2;
+  color: hsl(233, 8%, 62%);
 `;

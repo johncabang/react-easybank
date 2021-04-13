@@ -2,13 +2,13 @@ import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-  background-color: #3e436a;
+  background-color: hsl(233, 26%, 24%);
   height: 160px;
   display: flex;
   justify-content: center;
   padding: 0 10rem 0 10rem;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     height: 100%;
     padding: 2rem 0rem 2rem 0rem;
   }
@@ -17,11 +17,11 @@ export const FooterContainer = styled.div`
 export const FooterWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
   height: 100%;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     text-align: center;
   }
@@ -40,7 +40,7 @@ export const FooterSocial = styled.div`
   align-items: center;
   width: 100%;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     justify-content: space-evenly;
   }
 `;
@@ -59,7 +59,6 @@ export const FooterLogo = styled(LinkRouter)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #fff;
   margin-bottom: 3rem;
 `;
 
@@ -68,10 +67,9 @@ export const FooterLinksWrapper = styled.ul`
   justify-content: center;
   flex-direction: column;
   list-style: none;
-  color: #fff;
   margin: 2rem 0;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     margin: 0;
   }
 `;
@@ -79,7 +77,7 @@ export const FooterLinksWrapper = styled.ul`
 export const FooterLinkItem = styled.li`
   height: 100%;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
     padding: 1.2rem 0 0 0;
@@ -87,7 +85,7 @@ export const FooterLinkItem = styled.li`
 `;
 
 export const FooterLink = styled(LinkRouter)`
-  color: #b2b2b2;
+  color: hsl(220, 16%, 96%);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -103,7 +101,7 @@ export const FooterButtonContainer = styled.div`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     justify-content: center;
     margin-top: 1.2rem;
   }
@@ -112,23 +110,19 @@ export const FooterButtonContainer = styled.div`
 export const FooterButtonWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
-
-  @media screen and (max-width: 820px) {
-    justify-content: center;
-  }
 `;
 
 export const FooterRequestButtonWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     justify-content: center;
   }
 `;
 
 export const FooterButtonText = styled.p`
-  color: #b2b2b2;
   font-size: 1rem;
   margin-top: 2rem;
+  color: hsl(233, 8%, 62%);
 `;

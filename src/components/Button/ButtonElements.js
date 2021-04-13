@@ -19,7 +19,6 @@ export const NavBtnLink = styled(LinkRouter)`
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
 
   &:hover {

@@ -24,7 +24,7 @@ export const NavbarContainer = styled.div`
   justify-content: space-between;
   height: 80px;
   z-index: 1;
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
 `;
 
@@ -66,7 +66,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkRouter)`
-  color: #b2b2b2;
+  color: hsl(233, 8%, 62%);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -97,11 +97,10 @@ export const NavBtnLink = styled(LinkRouter)`
   font-weight: 700;
   white-space: nowrap;
   padding: 10px 20px;
-  color: white;
+  color: hsl(0, 0%, 100%);
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
 
   &:hover {
