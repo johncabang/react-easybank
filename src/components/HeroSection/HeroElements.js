@@ -51,9 +51,9 @@ export const HeroImages = styled.div`
 export const HeroBgImageDesktop = styled.img`
   transition: 0.8s all ease;
   position: absolute;
-  z-index: -1;
   top: -9rem;
   right: -20rem;
+  z-index: -1;
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
@@ -72,9 +72,9 @@ export const HeroBgImageMobile = styled.img`
     height: auto;
     width: 100%;
     position: absolute;
-    top: 9rem;
-    z-index: -999;
     margin-bottom: 0;
+    z-index: -999;
+    top: 9rem;
   }
 
   @media screen and (max-width: 375px) {
@@ -118,7 +118,6 @@ export const HeroTitle = styled.h1`
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
     width: 100%;
-    font-size: 3.5rem;
   }
 
   @media screen and (max-width: 375px) {
@@ -134,7 +133,6 @@ export const HeroDescription = styled.p`
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
     width: 100%;
-    font-size: 1.2rem;
     padding: 2rem 2rem;
   }
 `;

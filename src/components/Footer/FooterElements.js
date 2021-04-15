@@ -37,7 +37,6 @@ export const FooterSocialContainer = styled.div`
 export const FooterSocial = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 
   @media screen and (max-width: 768px) {
@@ -48,16 +47,20 @@ export const FooterSocial = styled.div`
 export const FooterSocialLink = styled(LinkRouter)`
   cursor: pointer;
 
+  // Todos - hover state colour (SVG)
+
   &:hover {
     fill: hsl(136, 65%, 51%);
   }
 `;
 
+// Todos - Change Logo colour to white (SVG)
+
 export const FooterLogo = styled(LinkRouter)`
-  justify-content: flex-start;
-  cursor: pointer;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
   text-decoration: none;
   margin-bottom: 3rem;
 `;
@@ -86,7 +89,6 @@ export const FooterLinkItem = styled.li`
 
 export const FooterLink = styled(LinkRouter)`
   color: hsl(220, 16%, 96%);
-  display: flex;
   align-items: center;
   text-decoration: none;
   height: 100%;
@@ -108,6 +110,7 @@ export const FooterButtonContainer = styled.div`
 `;
 
 export const FooterButtonWrapper = styled.div`
+  display: flex;
   justify-content: center;
   flex-direction: column;
 `;
@@ -122,7 +125,7 @@ export const FooterRequestButtonWrapper = styled.div`
 `;
 
 export const FooterButtonText = styled.p`
+  color: hsl(233, 8%, 62%);
   font-size: 1rem;
   margin-top: 2rem;
-  color: hsl(233, 8%, 62%);
 `;

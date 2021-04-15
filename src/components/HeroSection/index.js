@@ -10,11 +10,11 @@ import {
   HeroDescription,
   HeroButton,
 } from "./HeroElements";
+import { RequestButton } from "../Button";
+
 import bgdesktop from "./../../assets/bg-intro-desktop.svg";
 import bgmobile from "./../../assets/bg-intro-mobile.svg";
-
 import mockups from "./../../assets/image-mockups.png";
-import { RequestButton } from "../Button";
 
 const Hero = () => {
   return (

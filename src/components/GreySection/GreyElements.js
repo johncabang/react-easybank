@@ -11,9 +11,9 @@ export const GreyContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
-    padding: 2rem 2rem 0rem 2rem;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
+    padding: 2rem 2rem 0rem 2rem;
     margin-top: 0;
   }
 `;
@@ -32,8 +32,8 @@ export const GreyHeader = styled.div`
 `;
 
 export const GreyTitle = styled.h1`
-  font-weight: 100;
   font-size: 2.5rem;
+  font-weight: 100;
 `;
 
 export const GreyDescription = styled.p`
@@ -43,8 +43,8 @@ export const GreyDescription = styled.p`
 
 export const GreyBodyWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 2rem;
   margin-bottom: 2rem;
 
@@ -55,8 +55,8 @@ export const GreyBodyWrapper = styled.div`
 
 export const GreyCard = styled.div`
   border-radius: 10px;
-  width: 260px;
   margin: 0 0.2rem 1rem 0;
+  width: 260px;
 `;
 
 export const GreyImage = styled.img`

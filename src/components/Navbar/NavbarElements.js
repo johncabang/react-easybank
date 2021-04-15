@@ -23,7 +23,6 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 80px;
-  z-index: 1;
   max-width: 1440px;
   width: 100%;
 `;
@@ -85,26 +84,5 @@ export const NavBtn = styled.nav`
 
   @media screen and (max-width: 768px) {
     display: none;
-  }
-`;
-
-export const NavBtnLink = styled(LinkRouter)`
-  border-radius: 25px;
-  background: transparent
-    linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 50%) no-repeat
-    padding-box;
-  font-size: 14px;
-  font-weight: 700;
-  white-space: nowrap;
-  padding: 10px 20px;
-  color: hsl(0, 0%, 100%);
-  outline: none;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    filter: brightness(1.2);
   }
 `;

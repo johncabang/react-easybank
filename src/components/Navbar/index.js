@@ -7,8 +7,8 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink,
 } from "./NavbarElements";
+import { RequestButton } from "../Button";
 
 import logo from "../../assets/logo.svg";
 import hamburger from "../../assets/icon-hamburger.svg";
@@ -46,7 +46,7 @@ const Navbar = ({ toggle, isOpen }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/request">Request Invite</NavBtnLink>
+          <RequestButton />
         </NavBtn>
       </NavbarContainer>
     </Nav>
