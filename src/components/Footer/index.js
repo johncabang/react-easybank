@@ -27,7 +27,7 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrapper>
         <FooterSocialContainer>
-          <FooterLogo>
+          <FooterLogo to="/">
             <img src={logo} alt="logo" />
           </FooterLogo>
           <FooterSocial>

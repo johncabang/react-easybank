@@ -12,16 +12,21 @@ import {
 
 import logo from "../../assets/logo.svg";
 import hamburger from "../../assets/icon-hamburger.svg";
+import close from "./../../assets/icon-close.svg";
 
-const Navbar = () => {
+const Navbar = ({ toggle, isOpen }) => {
   return (
     <Nav>
       <NavbarContainer>
         <Navlogo to="/">
           <img src={logo} alt="logo" />
         </Navlogo>
-        <MobileIcon>
-          <img src={hamburger} alt="hamburger" />
+        <MobileIcon onClick={toggle}>
+          {!isOpen ? (
+            <img src={hamburger} alt="hamburger" />
+          ) : (
+            <img src={close} alt="close" />
+          )}
         </MobileIcon>
         <NavMenu>
           <NavItem>

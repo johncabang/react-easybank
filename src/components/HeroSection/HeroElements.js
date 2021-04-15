@@ -6,6 +6,7 @@ export const HeroContainer = styled.div`
   align-items: center;
   height: 800px;
   padding: 0 10rem 0 10rem;
+  overflow-x: hidden;
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
