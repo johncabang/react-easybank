@@ -32,9 +32,9 @@ const Hero = () => {
           </HeroButton>
         </HeroText>
         <HeroImages>
-          <HeroBgImageDesktop src={bgdesktop} />
-          <HeroBgImageMobile src={bgmobile} />
-          <HeroMockupImage src={mockups} />
+          <HeroBgImageDesktop src={bgdesktop} alt="desktop background" />
+          <HeroBgImageMobile src={bgmobile} alt="mobile background" />
+          <HeroMockupImage src={mockups} alt="mockup image" />
         </HeroImages>
       </HeroWrapper>
     </HeroContainer>

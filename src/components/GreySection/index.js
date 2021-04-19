@@ -28,7 +28,7 @@ const GreySection = ({ data }) => {
           {data.map((article) => {
             return (
               <GreyCard key={article.id}>
-                <GreyImage src={article.image} />
+                <GreyImage src={article.image} alt="article images" />
                 <GreyText>
                   <GreyCardTitle>{article.title}</GreyCardTitle>
                   <GreyBody>{article.body}</GreyBody>
