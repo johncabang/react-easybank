@@ -1,11 +1,9 @@
-## Frontend Mentor - Easybank Landing Page Challenge
+## Frontend Mentor - Easybank Landing Page Challenge <!-- omit in toc -->
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of contents <!-- omit in toc -->
 
-- [Frontend Mentor - Easybank Landing Page Challenge](#frontend-mentor---easybank-landing-page-challenge)
-- [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Built with](#built-with)
