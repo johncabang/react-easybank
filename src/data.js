@@ -17,6 +17,7 @@ export const articlesData = [
       "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single...",
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    alt: "Money image",
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ export const articlesData = [
       "Our simnple budgeting feature allows you to seperate out your spending and set realistic limits each month. That means...",
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    alt: "Restaurant dish image",
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export const articlesData = [
       "We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you...",
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    alt: "Airplane wing image",
   },
   {
     id: 4,
@@ -47,6 +50,7 @@ export const articlesData = [
       "After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site...",
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    alt: "Confetti image",
   },
 ];
 

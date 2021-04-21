@@ -57,11 +57,7 @@ export const FooterSocialLink = styled(LinkRouter)`
 // Todos - Change Logo colour to white (SVG)
 
 export const FooterLogo = styled(LinkRouter)`
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   cursor: pointer;
-  text-decoration: none;
   margin-bottom: 3rem;
 `;
 
